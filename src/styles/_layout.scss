@@ -1,0 +1,46 @@
+#app {
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.main {
+    min-height: 100%;
+
+    .container {
+        display: flex;
+        min-height: 100%;
+        align-items: center;
+    }
+}
+
+.form {
+    form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        flex-basis:calc(50% - 20px);
+
+        &:nth-child(odd) {
+            margin-right: 20px;
+        }
+
+        &:nth-child(even) {
+            margin-left: 20px;
+        }
+
+        label {
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+	"sidebar": {
+		"title": "Get the app",
+		"button": {
+			"copy": "Download",
+			"link": "https://www.ascensor.co.uk/"
+		},
+		"smallPrint": "* small print text"
+	},
+	"landing": {
+		"copy": "<p>Our new <strong>location based app</strong> is launching soon, please use the form below to register your profile for the Hot Places app.</p><p>Lorum ipsum nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>"
+	},
+	"form": {
+		"button": {
+			"copy": "Register for our new app"
+		}
+	}
+}
