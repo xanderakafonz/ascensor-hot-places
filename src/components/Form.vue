@@ -52,7 +52,6 @@ export default class Form extends Vue {
   photo: string = '';
 
   processFile(e: any): void {
-    console.log(e);
   }
 
   toggleForm(): void {
